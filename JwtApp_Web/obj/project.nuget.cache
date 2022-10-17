@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "1W620oWr6lFIhLG5UiT6j4fJ3vCIye609RIjaqy6QgdjS1Bhm0C5ZdNyyjmpShcm+vXtjan5eNZ/uRCg0Ls7aw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MONSTER\\source\\repos\\JwtApp_141022\\JwtApp_Web\\JwtApp_Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MONSTER\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.0\\microsoft.aspnetcore.authentication.jwtbearer.6.0.0.nupkg.sha512",
+    "C:\\Users\\MONSTER\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\MONSTER\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.10.0\\microsoft.identitymodel.jsonwebtokens.6.10.0.nupkg.sha512",
+    "C:\\Users\\MONSTER\\.nuget\\packages\\microsoft.identitymodel.logging\\6.10.0\\microsoft.identitymodel.logging.6.10.0.nupkg.sha512",
+    "C:\\Users\\MONSTER\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.10.0\\microsoft.identitymodel.protocols.6.10.0.nupkg.sha512",
+    "C:\\Users\\MONSTER\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.10.0\\microsoft.identitymodel.protocols.openidconnect.6.10.0.nupkg.sha512",
+    "C:\\Users\\MONSTER\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.10.0\\microsoft.identitymodel.tokens.6.10.0.nupkg.sha512",
+    "C:\\Users\\MONSTER\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\MONSTER\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.10.0\\system.identitymodel.tokens.jwt.6.10.0.nupkg.sha512",
+    "C:\\Users\\MONSTER\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

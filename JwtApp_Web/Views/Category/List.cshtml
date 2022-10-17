@@ -1,0 +1,40 @@
+﻿@model List<CategoryListModel>
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="container">
+    <div class="text-left">
+        <a asp-action="CreateCategory" asp-controller="Category" class="btn btn-success btn-sm">Create Category</a>
+        @if (ViewBag.ErrorMessage != null)
+        {
+            <p class="text-danger">@ViewBag.ErrorMessage</p>
+        }
+        <table class="table table-bordered table-sm">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Definition</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model?.Count > 0)
+                {
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.Definition</td>
+                            <td><a asp-action="RemoveCategory" asp-controller="Category" asp-route-Id="@item.Id" class="btn btn-secondary btn-sm">Remove Category</a></td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="2">Have not no data</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
